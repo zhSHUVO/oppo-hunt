@@ -1,0 +1,74 @@
+[
+    {
+        "phone_name": "Find X5",
+        "id": "oppo_find_x5-11378",
+        "price": 123,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg"
+    },
+    {
+        "phone_name": "Find X5 Pro",
+        "id": "oppo_find_x5_pro-11236",
+        "price": 234,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg"
+    },
+    {
+        "phone_name": "Find X5 Lite",
+        "id": "oppo_find_x5_lite-11323",
+        "price": 312,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg"
+    },
+    {
+        "phone_name": "Pad",
+        "id": "oppo_pad-11322",
+        "price": 213,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg"
+    },
+    {
+        "phone_name": "A76",
+        "id": "oppo_a76-11367",
+        "price": 452,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg"
+    },
+    {
+        "phone_name": "Reno7 5G",
+        "id": "oppo_reno7_5g-11350",
+        "price": 633,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg"
+    },
+    {
+        "phone_name": "A96",
+        "id": "oppo_a96-11316",
+        "price": 753,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg"
+    },
+    {
+        "phone_name": "Reno6 Lite",
+        "id": "oppo_reno6_lite-11196",
+        "price": 223,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg"
+    },
+    {
+        "phone_name": "A36",
+        "id": "oppo_a36-11314",
+        "price": 132,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg"
+    },
+    {
+        "phone_name": "A11s",
+        "id": "oppo_a11s-11288",
+        "price": 113,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg"
+    },
+    {
+        "phone_name": "Reno7 Pro 5G",
+        "id": "oppo_reno7_pro_5g-11190",
+        "price": 111,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg"
+    },
+    {
+        "phone_name": "Find N",
+        "id": "oppo_find_n-11267",
+        "price": 191,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg"
+    }
+]
