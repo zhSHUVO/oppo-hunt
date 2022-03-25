@@ -1,10 +1,20 @@
 .store-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin: 20px auto 0;
 }
 
 .phone-container {
+    margin: 50px 20px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
+}
+
+.cart-container {
+    margin: 20px 0;
+}
+
+.btn-text {
+    margin-right: 10px;
 }
