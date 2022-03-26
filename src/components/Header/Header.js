@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header">
             <h1>OPPO</h1>
-            <p>a mobile phone brand enjoyed by young people around the world</p>
+            <p>A mobile phone brand enjoyed by young people around the world</p>
         </div>
     );
 };

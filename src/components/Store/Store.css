@@ -28,5 +28,13 @@
 @media screen and (max-width: 768px) {
     .phone-container {
         grid-template-columns: repeat(1, 1fr);
+        margin-right: 0;
+    }
+    .store-container {
+        margin: 0;
+    }
+
+    .cart-container {
+        margin: 20px;
     }
 }

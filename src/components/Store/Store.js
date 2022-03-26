@@ -19,9 +19,11 @@ const Store = () => {
     };
 
     const handleRandomPhone = (carts) => {
-        const phone = carts[Math.floor(Math.random() * carts.length)];
-        const newCart = [phone];
-        setCart(newCart);
+        if (carts.length !== 0) {
+            const phone = carts[Math.floor(Math.random() * carts.length)];
+            const newCart = [phone];
+            setCart(newCart);
+        }
     };
 
     const handleTryAgain = (carts) => {
