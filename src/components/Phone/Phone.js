@@ -13,7 +13,7 @@ const Phone = ({ phone, handleAddToCart }) => {
                 <p>Price: {price}</p>
             </div>
             <button onClick={() => handleAddToCart(phone)} className="cart-btn">
-                <p className="btn-text">Add to Cart</p>
+                <p >Add to Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>

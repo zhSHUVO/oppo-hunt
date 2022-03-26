@@ -5,7 +5,7 @@
 }
 
 .cart h4 {
-    text-align: center;
+    padding-left: 30%;
 }
 
 .cart-info {
@@ -25,14 +25,25 @@
     align-items: center;
     justify-content: center;
     width: 80%;
-    background-color: aliceblue;
+    background-color: #4c566a;
+    color: white;
     border: none;
     border-radius: 10px;
     margin: 10px 0;
+    cursor: pointer;
 }
 
-.try-choose-btn:hover {
-    background-color: #4c566a;
-    cursor: pointer;
-    color: aliceblue;
+@media screen and (max-width: 768px) {
+    button .btn-text {
+        display: none;
+    }
+
+    .cart-info img {
+        width: 80%;
+    }
+
+    .try-choose-btn {
+        width: 100%;
+        padding: 10px 0;
+    }
 }
