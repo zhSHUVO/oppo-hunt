@@ -1,0 +1,38 @@
+.cart {
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
+}
+
+.cart h4 {
+    text-align: center;
+}
+
+.cart-info {
+    margin: 5px 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cart-info img {
+    margin-left: 20px;
+    width: 40%;
+}
+
+.try-choose-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.try-choose-btn:hover {
+    background-color: #4c566a;
+    cursor: pointer;
+    color: aliceblue;
+}

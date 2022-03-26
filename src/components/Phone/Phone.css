@@ -22,14 +22,13 @@
     width: 100%;
     background-color: aliceblue;
     border: none;
-    border-radius: 10px;
+    border-radius: 11px;
     position: absolute;
     bottom: 0;
 }
 
 .cart-btn:hover {
-    background-color: orange;
+    background-color: #4c566a;
     cursor: pointer;
+    color: aliceblue;
 }
-
-

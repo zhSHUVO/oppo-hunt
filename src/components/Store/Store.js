@@ -14,10 +14,19 @@ const Store = () => {
     }, []);
 
     const handleAddToCart = (phone) => {
-        console.log(phone);
         const newCart = [...cart, phone];
         setCart(newCart);
-        console.log(newCart);
+    };
+
+    const handleRandomPhone = (carts) => {
+        const phone = carts[Math.floor(Math.random() * carts.length)];
+        const newCart = [phone];
+        setCart(newCart);
+    };
+
+    const handleTryAgain = (carts) => {
+        console.log(carts);
+        setCart([]);
     };
 
     return (
@@ -33,7 +42,11 @@ const Store = () => {
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart
+                    cart={cart}
+                    handleRandomPhone={handleRandomPhone}
+                    handleTryAgain={handleTryAgain}
+                ></Cart>
             </div>
         </div>
     );
